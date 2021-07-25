@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tourney&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=BenchNine&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="/javaScriptFiles/registration.js" defer></script>
@@ -22,8 +25,50 @@
         <a href="about.html"><button type="button" class="btn btn-outline-primary" id="print">About me</button></a>
         <a href="resume.html"><button type="button" class="btn btn-outline-secondary">Resume</button></a>
         <a href="login.html"><button type="button" class="btn btn-outline-success">Login</button></a>
-        <button type="button" class="btn btn-outline-danger">Registration</button>
-      </div>
+        <a href="registration.html"><button type="button" class="btn btn-outline-danger">Registration</button></a>
+     </div>
+     <div class="contactForm">
+         <h2>Get in Touch</h2>
+         <div >
+             <input type="text" placeholder="your name please" class="nameField">
+         </div>
+         <div >
+            <input type="email" placeholder="A contact email" class="nameField">
+        </div>
+        <div >
+            <label for="contact"></label>
+
+            <select name="contact" id="divField">
+            <option value="For a new project">For a new project</option>
+            <option value="sSuggestions">Suggestions</option>
+            <option value="Catch up for a coffee">Catch up for a coffee</option>
+            <option value="General">General</option>
+            </select>
+            
+            
+            <textarea id="w3review" name="w3review" rows="4" cols="35" class="nameField">
+                How can I help?
+            
+            </textarea>
+             <br><br>
+            <input type="submit" value="Send Message" class="submitField">
+           
+        </div>
+        <div class="videoContainer">
+            <video width="320" height="240" controls loop>
+                <source src="/mediaFiles/motionElement.mp4" type="video/mp4">
+               
+                Your browser does not support the video tag.
+              </video>
+        </div>
+        <div>
+            <img src="/mediaFiles/sample.jpg">
+        </div>
+        
+       
+
+     </div>
+     
       
     
   </body>
