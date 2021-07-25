@@ -1,0 +1,24 @@
+
+.myFont{
+    font-family: 'Tourney', cursive;
+    position: fixed;
+    left: 430px;
+    top: 30px;
+}
+.myButton{
+    position: relative;
+    top: 150px;
+    left: 0px;
+    background-color: #dbdbd9;
+   
+   
+
+}
+.btn{
+    margin: 70px;
+    
+
+}
+.myBody{
+    background-color: #ffc7e3
+}

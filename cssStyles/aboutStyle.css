@@ -1,0 +1,33 @@
+img{
+    height: 400px;
+    width:400px;
+    position: relative;
+    left: 450px;
+    top: 30px;
+    
+}
+body{
+    background-color: #ffc65c;
+}
+.myInfo{
+    position: relative;
+    top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 550px;
+    font-family: 'Caveat', cursive;
+    font-size:x-large
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    border-color: blue;
+    
+  }
+.tableContainer{
+    position: relative;
+    left: 400px;
+    top: 50px;
+    border: black;
+
+}
