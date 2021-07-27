@@ -1,9 +1,7 @@
 
 .myFont{
     font-family: 'Tourney', cursive;
-    position: relative;
-    left: 430px;
-    top: 10px;
+    text-align: center;
 }
 .myButton{
     position: relative;
@@ -16,7 +14,7 @@
 
 }
 .btn{
-    margin: 70px;
+    margin: 60px;
     
 
 }
@@ -24,7 +22,7 @@
     background-color: #ffc7e3
 }
 .contactForm{
-    height: 500px;
+    height: 465px;
     width: 300px;
     background-color: crimson;
     position: relative;

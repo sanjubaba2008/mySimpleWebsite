@@ -2,7 +2,7 @@ img{
     height: 400px;
     width:400px;
     position: relative;
-    left: 450px;
+    left: 400px;
     top: 30px;
     
 }
@@ -14,8 +14,7 @@ body{
     top: 50px;
     padding-left: 15px;
     padding-right: 15px;
-    height: 550px;
-    font-family: 'Caveat', cursive;
+   font-family: 'Caveat', cursive;
     font-size:x-large
 }
 table, th, td {
@@ -27,7 +26,10 @@ table, th, td {
 .tableContainer{
     position: relative;
     left: 400px;
-    top: 50px;
+    top: 5px;
     border: black;
 
+}
+h1{
+    text-align: center;
 }
