@@ -45,3 +45,5 @@ newDiv.innerHTML = content;
 
 const main = document.querySelector("main");//selecting main element from html file
 main.append(newDiv);//appending content to the html
+
+
