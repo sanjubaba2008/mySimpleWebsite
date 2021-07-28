@@ -1,7 +1,7 @@
 .main_container{
+    height: 1700px;
     background-color:#312c2c;
     font-family: 'EB Garamond', serif;
-    width: 85%;
     color:white;
     position: relative;
     top: 100px;
@@ -30,13 +30,12 @@ h5{
     color: #1a8dcc;
 }
 .info{
-    position: relative;
-    left: 100px;
+    
 
 }
 pre{
     position: relative;
-    left: 250px;
+    left: 350px;
     bottom: 170px;
     
     
@@ -193,7 +192,4 @@ ul.list1{
 
 .list2{
     list-style-type: square;
-}
-*{
-    border:2px solid red
 }
